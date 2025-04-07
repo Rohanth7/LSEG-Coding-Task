@@ -25,16 +25,8 @@ const ChatbotBody = () => {
   );
 
   useEffect(() => {
-    const handleWindowLoad = () => {
-      setCurrentBlock("start");
-    };
-
-    window.addEventListener("load", handleWindowLoad);
-
-    return () => {
-      window.removeEventListener("load", handleWindowLoad);
-    };
-  }, [setCurrentBlock]);
+    setCurrentBlock("start");
+  }, []);
 
   // Scroll to the latest message whenever messages change
   useEffect(() => {
