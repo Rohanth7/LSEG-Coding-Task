@@ -10,3 +10,6 @@ Steps to run the project:
 Comments:
 1) Avoided Typescript due to time constraint
 2) Focused on extending functionality over good UI. However UI elements as per the requirements are met.
+
+App screenshot:
+![image](https://github.com/user-attachments/assets/bd79b39d-1277-458b-9b58-c015628893f9)
